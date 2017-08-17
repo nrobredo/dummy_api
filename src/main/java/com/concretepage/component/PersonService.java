@@ -10,7 +10,7 @@ public class PersonService implements IPersonService {
 	public Person getPersonDetail(Integer id){
 		Person p = new Person();
 		p.setId(id);
-		p.setLocation("Taranaki");
+		p.setLocation("Hello");
 		p.setName("Pepperoni");
 		return p;
 	}
